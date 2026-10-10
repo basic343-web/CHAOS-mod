@@ -1,17 +1,28 @@
 {
-	"geode": "$GEODE_VERSION",
+	"geode": "4.0.0",
 	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
 	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
+	"id": "tuusuario.chaosmod",
+	"name": "Chaos Mod",
+	"version": "v1.0.0",
+	"developer": "tuusuario",
+	"description": "Efectos de caos aleatorios mientras juegas un nivel.",
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"name": "Activar caos",
+			"default": true
+		},
+		"interval": {
+			"type": "float",
+			"name": "Segundos entre efectos",
+			"default": 8.0,
+			"min": 2.0,
+			"max": 60.0
+		}
 	}
 }
